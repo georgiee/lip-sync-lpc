@@ -1,0 +1,7 @@
+TEMP=tmp
+CODE_DIR=bin
+
+minPauseDuration=0.2
+stDevFraction=0.33
+begPad=0.05
+endPad=0.15

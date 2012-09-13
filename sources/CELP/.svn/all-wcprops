@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 22
+/svn/!svn/ver/21/trunk
+END
+lpcTeste1.m
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/4/trunk/lpcTeste1.m
+END
+speech.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/2/trunk/speech.pdf
+END
+audio.mat
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/5/trunk/audio.mat
+END
+dspcelpcoder.mdl
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/21/trunk/dspcelpcoder.mdl
+END
+getSound.m
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/17/trunk/getSound.m
+END
+LPCsimulink.mdl
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/21/trunk/LPCsimulink.mdl
+END
+codebook.mat
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/21/trunk/codebook.mat
+END
+CodebookSearch.mdl
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/21/trunk/CodebookSearch.mdl
+END
+CelpSimulink.mdl
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/21/trunk/CelpSimulink.mdl
+END

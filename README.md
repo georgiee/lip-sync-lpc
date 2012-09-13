@@ -1,7 +1,20 @@
 lipsync
 =======
 
-Collection of document and tools
+Collection of documents and tools
+
+Vowel (IPA)	Formant f1	Formant f2
+u	320 Hz	800 Hz
+o	500 Hz	1000 Hz
+ɑ	700 Hz	1150 Hz
+a	1000 Hz	1400 Hz
+ø	500 Hz	1500 Hz
+y	320 Hz	1650 Hz
+ɛ	700 Hz	1800 Hz
+e	500 Hz	2300 Hz
+i	320 Hz	2500 Hz
+
+
 
 linear prediction coefficients
 

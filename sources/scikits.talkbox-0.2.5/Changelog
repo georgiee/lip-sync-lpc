@@ -1,0 +1,46 @@
+Thu, 26 Mar 2009 23:06:25 +0900
+	* Fix missing files in the tarball
+
+Tue, 17 Feb 2009 17:06:53 +0900
+	* Fix a serious bug in LPC wrapper: this should fix segfaults on 64
+	bits arch.
+
+Sun, 18 Jan 2009 20:55:54 +0900
+	* Implemented MFCC computation
+	* Assumes scipy 0.8 installed (for the DCT)
+
+Tue, 25 Nov 2008 18:14:52 +0900
+	* Release 0.2.1
+
+Sat, 22 Nov 2008 11:01:03 +0900
+	* Add a cython version of direct implementation (wo FFT)
+	autocorrelation
+	* Add argument to optionally use direct autocorrelation in lpcres;
+	this makes lpcres several times faster for typical LPC order/windows
+	size ration in speech processing.
+
+Fri, 21 Nov 2008 20:59:57 +0900
+	* Add a function slfilter in tools to filter a set of windows
+	* Add a cython version of slfilter
+	* Use slfilter to implement rank 2 of linpred
+
+Wed, 5 Nov 2008 04:13:05 +0900
+	* Fix some major memory leaks in levinson C code
+	* Fix DCT with fft backend
+	* Release 0.2
+
+Thu, 25 Sep 2008 01:38:44 +0900
+	* Fix bug in levinson error computation (data given to
+	PyArray_NewFromData was not allocated on the heap).
+	* Autocorrelation now is the biased estimator (fix discrepancy with
+	matlab for lpc)
+	* Initial version of arspec
+	* Better error handling of input errors in C levinson
+
+Tue, 23 Sep 2008 01:50:27 +0900
+
+	* levinson is implemented in both python and C (C only support real
+	double; python version can do complex numbers)
+	* lpc implemented (support axis argument)
+	* simple periodogram implemented
+	* 0.1 release

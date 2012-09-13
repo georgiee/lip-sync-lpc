@@ -1,0 +1,32 @@
+Metadata-Version: 1.0
+Name: scikits.talkbox
+Version: 0.2.5
+Summary: Talkbox, a set of python modules for speech/signal processing
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: MIT
+Description: Talkbox, to make your numpy environment speech aware !
+        
+        Talkbox is set of python modules for speech/signal processing. The goal of this
+        toolbox is to be a sandbox for features which may end up in scipy at some
+        point. The following features are planned before a 1.0 release:
+        
+        * Spectrum estimation related functions: both parametic (lpc, high
+        resolution methods like music and co), and non-parametric (Welch,
+        periodogram)
+        * Fourier-like transforms (DCT, DST, MDCT, etc...)
+        * Basic signal processing tasks such as resampling
+        * Speech related functionalities: mfcc, mel spectrum, etc..
+        * More as it comes
+        
+        I want talkbox to be useful for both research and educational purpose. As such,
+        a requirement is to have a pure python implementation for everything - for
+        educational purpose and reproducibility - and optional C for speed.
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Scientific/Engineering

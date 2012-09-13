@@ -1,0 +1,37 @@
+Release 0.2
+===========
+
+Spectrogram estimation:
+	- tapping, daniel smoothing should work (See Bloomfield)
+        - add plotting capabilities to periodogram
+        - AR spectrum estimation (again with plotting)
+
+Documentation for periodogram + examples
+Documentation for LPC + examples
+Documentation for Levinson
+
+Release 0.3
+===========
+
+Implement real cepstrum
+...
+
+Release 1.0
+===========
+
+Have major transform implemented: dct II/IV, MDCT.
+Have periodogram, aryule and at least one high-resolution method for spectrum
+(MUSIC ?)
+Have good-performance LPC-analysis.
+
+Future
+======
+
+- More parametric spectrum estimation
+- Polyphase filters ?
+
+References
+===========
+
+[1] Marple, S.L. Digital Spectral Analysis, Englewood Cliffs, NJ,
+Prentice-Hall, 1987, pp. 373-378. (for eigen-like method)
