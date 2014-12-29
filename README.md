@@ -2,6 +2,7 @@
 I tried to create a basic vowel detection for a flash project, to decide if an expected word was spoken and to sync lips to a sound currently spoken by a user. 
 Conclusion: Use Linear Predictive Coding (LPC) to find vowels or synthesizes speech.
 But it was work than I expected. I used ALF(AS3) and numpy(python) to validate my AS3 results. I havehad more trust in numpy.
+I also used a wonderful tool called PRAAT to verify my results and look into a working vowel detection.
 
 I failed to complete the vowel detection within the given project timeline so I used a simple fallback: Measure the volume and open the mouth/lips accordingly. Good enough. But I was a little bit disappointed. It felt that I was very, very close to a workign vowel detection. **Note to myself: Continue in JavaScript!**
 
