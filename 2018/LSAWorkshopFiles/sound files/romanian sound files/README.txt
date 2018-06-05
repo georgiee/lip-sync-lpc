@@ -1,0 +1,1 @@
+These Romanian language sound files were cut out, separated and textgridded from files downloaded from the UCLA Phonetics Lab Archive by Will Styler in Spring 2010.  http://archive.phonetics.ucla.edu/Language/RON/ron.html
